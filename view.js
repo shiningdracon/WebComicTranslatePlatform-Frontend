@@ -27,6 +27,7 @@ var dragonComicView = (function() {
 	}
 
 	function makeUnselectable() {
+		canvas.selection = false;
 		var objs = canvas.getObjects();
 		for (var obj of objs) {
 			obj.selectable = false;
