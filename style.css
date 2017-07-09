@@ -1,0 +1,12 @@
+.list-inline {
+	font-size: 0;
+}
+
+.list-inline li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.comic-list-item {
+	width: 219px;
+}
